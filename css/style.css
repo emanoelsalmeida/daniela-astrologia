@@ -11,20 +11,20 @@ body{font-size: 100%;}
     display: flex;justify-content: center;align-items: center;flex-direction: column;
     background-attachment: fixed;}
 .p1-item{display: flex;justify-content: center;align-items: center;flex-direction: column;}
-.p1 h1{color: #fff;font-size: 3rem;}
-.p1 p{color: #fff;font-size: 1.5rem;margin: 1em 0;}
+.p1 h1{color:#fff;font-size: 2.5rem;}
+.p1 p{color: #fff;font-size: 1rem;margin: 1em 0;font-weight: 600;}
 
 .p1-fixed{position: absolute;top:0;left: 0;}
-.p1-fixed img{width: 15vw; padding: 1em 1em;}
+.p1-fixed img{width: 20vw; padding: 1em 1em;}
 
-form button{background-color: #f1494f;border: none;color:white;padding: 1em 2em;
+form button{background-color: #fd3a69;border: none;color:white;padding: 1em 2em;
     text-transform: uppercase;cursor: pointer;border-radius: 50px;font-weight: 700;font-size: 1rem;}
 form button:hover{box-shadow: 0 0 15px#fd3a69;padding: 1.2em 2.2em;transition: .4s;}
 
 .p2{background: url(/images/moon-2.jpg) center bottom;
     background-size: cover;width: 100%;
     display: flex;justify-content: center;align-items: center;}    
-.p2 p {color: #fff;width: 80%;display: block;margin: 1em auto;}
+.p2 p {color: #fff;width: 80%;display: block;margin: 1em auto;text-align: center;}
 
 .p3{background: url(/images/red-moon.jpg);
     background-size: cover;width: 100%;
@@ -35,14 +35,14 @@ form button:hover{box-shadow: 0 0 15px#fd3a69;padding: 1.2em 2.2em;transition: .
         flex-direction: column;text-align: center;}
     .p3 h1{margin-bottom: 1em;}
     .p3-item p{width: 90%;margin: .5em 0;}    
-.p3 h1 mark, .p4 h1 mark, .p5 h1 mark{background-color: #f1494f;}
+.p3 h1 mark, .p4 h1 mark, .p5 h1 mark, .p6 h1 mark{background-color: #f1494f;}
 .p4{background: url(/images/star-black.jpeg);
         background-size: cover;width: 100%;
         display: flex;justify-content: center;align-items: center;
         flex-direction: column;color: #fff;padding: 2em 0;}      
 .p4-box{background-color: #f1494f;width: 90%;padding: 1em 1em;}
 .p4-item p{margin: 1em 0;font-size: 1rem;}
-.p4 h1{padding: 1em 0em;font-size: 2rem;}
+.p4 h1{padding: 1em 0em;font-size: 2rem;text-transform: uppercase;}
 .p4 h1 b{background-color: blue;}
 
 .p5{background: url(/images/star-black.jpeg);
@@ -51,16 +51,20 @@ form button:hover{box-shadow: 0 0 15px#fd3a69;padding: 1.2em 2.2em;transition: .
     flex-direction: column;color: #fff;padding: 2em 0;}  
 .p5-box{display: flex;justify-content: center;align-items: flex-start;flex-wrap: wrap;}     
 .p5-item{width:40%;text-align: center;padding: 1em 1em;}
-.p5 h1{width: 90%;text-align: center;padding: 1em 0;font-size: 2rem;}
+.p5 h1{width: 90%;text-align: center;padding: 1em 0;font-size: 1.3rem;}
+.p5 h2{font-size: 2rem;}
 .p5-item img{width: 15%;height: auto;}    
-.p5-item p,.p5-item li  {font-size: .8rem;margin: .5rem 0;}
+.p5-item h3{font-size: 1.3rem;}
+.p5-item p,.p5-item li  {font-size: 1rem;margin: .5rem 0;}
 .p5-item li{margin: 0;}
 
 .p6{background: url(/images/star-black.jpeg);
     background-size: cover;width: 100%;
-    color: #fff;padding: 2em 0;}
-.p6-box{display: flex;justify-content: center;align-items: flex-start;flex-wrap: wrap;}
+    color: #fff;padding: 2em 0;display: flex;place-items: center;flex-direction: column;}
+.p6-box{display: flex;justify-content: center;align-items: flex-start;flex-wrap: wrap;
+    background-color: #fff;width: 80%;color: #000;}
 .p6-item{width: 40%;text-align: center;margin: 1em 1em;}
+.p6 h1{text-align: center;padding: 1em 0;font-size: 1.3rem;}
 .p6-item img{width: 15%;height: auto;}    
 
 .p7{background: url(/images/stars-2.jpg);
@@ -72,11 +76,16 @@ form button:hover{box-shadow: 0 0 15px#fd3a69;padding: 1.2em 2.2em;transition: .
     justify-content: center;} 
 .p7-item{display: flex;justify-content: flex-start;align-items: center;margin: .5em 0;}   
 .p7-item img{width: 5%;height: auto;margin: 0 .5em;}
-.p7-item p{text-align: left;font-size: .8rem;}
+.p7-item p{text-align: left;font-size: 1rem;}
 .p7-box h3{font-size: 1.8rem;}
-.p7-box h4{font-size: 2rem;margin: 1em 0;}
-.p7 button{background-color: #fff;color: #f1494f;}
+.p7-box h4{font-size: 3rem;margin: 1em 0;font-weight: 800;}
+.p7 button{background-color: #fff;color: #f1494f;padding: 1em 3em;margin: 1em 0;}
+.p7 button:hover{padding: 1em 3em;}
 .p7 h2{font-size: 1.5rem;width: 80%;text-align: center;margin: 1em 0;}
+.p7-p{text-align: center;margin: 1em 0;font-weight: 700;font-size: 1rem;}
+
+
+
 
 .bio{display: flex;justify-content: flex-start;align-items: center;
     padding: 0 1em;background-color: transparent;width: 90%;padding: 1em 1em;
@@ -87,7 +96,7 @@ form button:hover{box-shadow: 0 0 15px#fd3a69;padding: 1.2em 2.2em;transition: .
 .p8{background-color: #000;}
 .p8-box{display: flex;justify-content: space-around;align-items: center;color: #fff;padding: 2em 0;}
 .p8-item{display: flex;justify-content: center;align-items: center;flex-direction: column;}
-.p8-item img{width: 20%;height: auto;}
+.p8-item img{width: 40%;height: auto;}
 .p8-item p{font-size: .8rem;}
 
 
@@ -109,13 +118,20 @@ footer p a{color:#f1494f; text-decoration: none;}
     .p4 h1{font-size: 1.5rem;text-align: center;width: 80%;}
     
     .p5 h1{font-size: 1.5rem;text-align: center;}
+    .p5 h2{font-size: 2rem;text-align: center;}
     .p5-item,  .p6-item{width: 90%;}
 
-    .border{width: 80%;}
+.p6 h1{width: 90%;display: block;margin: 0 auto;}
+.p6-box{width: 90%;}
+
+    .border{width: 90%;}
 
     .p7 h2{font-size: 1.2rem;}
-
+    .p7-box h3{font-size: 1.5rem;}
+    .p7-box h4{font-size: 2.0rem;text-align: center}
     .bio, .p8-box{flex-direction: column;}
+
+    .p7-p{width: 90%;text-align: center;display: block;margin: 1em auto;font-size: .8rem;}
 
     .p8-box{justify-content: center;align-items: center;text-align: center;}
     .p8-item p{margin: 1em 0;}
