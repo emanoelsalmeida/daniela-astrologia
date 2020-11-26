@@ -17,7 +17,7 @@ body{font-size: 100%;}
 .p1-fixed{position: absolute;top:0;left: 0;}
 .p1-fixed img{width: 20vw; padding: 1em 1em;}
 
-form button{background-color: #fd3a69;border: none;color:white;padding: 1em 2em;
+form button{background-color: #D97904;border: none;color:white;padding: 1em 2em;
     text-transform: uppercase;cursor: pointer;border-radius: 50px;font-weight: 700;font-size: 1rem;}
 form button:hover{box-shadow: 0 0 15px#fd3a69;padding: 1.2em 2.2em;transition: .4s;}
 
@@ -26,7 +26,7 @@ form button:hover{box-shadow: 0 0 15px#fd3a69;padding: 1.2em 2.2em;transition: .
     display: flex;justify-content: center;align-items: center;}    
 .p2 p {color: #fff;width: 80%;display: block;margin: 1em auto;text-align: center;}
 
-.p3{background: url(/images/red-moon.jpg);
+.p3{background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(/images/red-moon.jpg);
     background-size: cover;width: 100%;
     display: flex;justify-content: center;align-items: center;
     flex-direction: column;color: #fff;padding: 2em 0; background-attachment: fixed;background-position: center;}  
@@ -110,7 +110,10 @@ footer p a{color:#f1494f; text-decoration: none;}
     
     .p1 h1{text-align: center;font-size: 2rem;width: 80%;}
     .p1 p{text-align: center;font-size: 1rem;width: 80%;}
-
+    
+    .p1-fixed{position: static;}
+    .p1-fixed img{width: 60vw; padding: 1em 1em;display: block;margin: 0 auto;}
+    
     .p3 h1{font-size: 1.5rem;text-align: center;width: 80%;}
     .p3-item p{width: 80%;}
     .p3 form button{width: 80%;}
