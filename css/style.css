@@ -22,7 +22,7 @@ body{font-size: 100%;}
 */
 
 
-form button{background-color:#FD7633;border: none;color:white;padding: 1em 2em;
+form button{background-color:#FD7633;border: none;color:white;padding: 1em 3em;
     text-transform: uppercase;cursor: pointer;border-radius: 50px;font-weight: 700;font-size: 1rem;}
 
 .p2{background: url(/images/moon-2.jpg) center bottom;
@@ -44,8 +44,8 @@ form button{background-color:#FD7633;border: none;color:white;padding: 1em 2em;
         background-size: cover;width: 100%;
         display: flex;justify-content: center;align-items: center;
         flex-direction: column;color: #fff;padding: 2em 0;}      
-.p4-box{background-color: #f1494f;width: 90%;padding: 1em 1em;}
-.p4-item p{margin: 1em 0;font-size: 1rem;}
+.p4-box{background-color: #fff;width: 90%;padding: 1em 1em;}
+.p4-item p{margin: 1em 0;font-size: 1rem;color: #000;}
 .p4 h1{padding: 1em 0em;font-size: 2rem;text-transform: uppercase;}
 .p4 h1 b{background-color: blue;}
 
