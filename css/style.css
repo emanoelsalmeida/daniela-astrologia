@@ -17,7 +17,12 @@ body{font-size: 100%;}
 .p1-fixed{position: absolute;top:0;left: 0;}
 .p1-fixed img{width: 20vw; padding: 1em 1em;}
 
-form button{background-color: #D97904;border: none;color:white;padding: 1em 2em;
+/*
+#D97904
+*/
+
+
+form button{background-color:#FD7633;border: none;color:white;padding: 1em 2em;
     text-transform: uppercase;cursor: pointer;border-radius: 50px;font-weight: 700;font-size: 1rem;}
 form button:hover{box-shadow: 0 0 15px#fd3a69;padding: 1.2em 2.2em;transition: .4s;}
 
